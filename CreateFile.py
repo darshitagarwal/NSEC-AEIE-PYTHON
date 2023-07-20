@@ -1,0 +1,6 @@
+x=input("Enter a file name => ")
+y=input("Enter the file contents => ")
+f=open(x,"w")
+f.write(y)
+f.close()
+print("File Created Successfully")
