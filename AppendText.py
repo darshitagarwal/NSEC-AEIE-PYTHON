@@ -1,0 +1,6 @@
+x=input("Enter the file name => ")
+y=input("Enter the file contents => ")
+a=open(x,"a")
+a.write(y)
+a.close()
+print("File contents added")
